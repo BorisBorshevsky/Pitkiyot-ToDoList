@@ -1,0 +1,22 @@
+{
+    "name": "phonegap-app-developer",
+    "description": "PhoneGap Developer app.",
+    "homepage": "http://app.phonegap.com",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/phonegap/phonegap-app-developer.git"
+    },
+    "preferGlobal": "false",
+    "private": "true",
+    "scripts": {
+        "test": "jasmine-node tests/browser",
+        "less": "lessc -x resources/less/app.less > www/css/app.css"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "jasmine-node": "1.14.5",
+        "less": "1.6.0",
+        "npm": "1.4.10"
+    }
+}
